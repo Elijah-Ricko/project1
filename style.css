@@ -29,7 +29,7 @@ body {
 .navlinks {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: stretch;
 
   border-top: 3px solid black;
@@ -49,40 +49,13 @@ body {
   font-size: 30px;
   font-family: Georgia;
 
-  border-left: 2px solid black;
+  /* border-left: 2px solid black; */
 
-  padding: 10px;
+  padding: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
 
   color: var(--purple);
-}
-
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: var(--gold);
-
-  border: 2px solid black;
-  border-top: none;
-
-  min-width: 176px;
-  z-index: 1;
-}
-
-.dropdown-content > a {
-  display: block;
-  text-align: left;
-  text-decoration: none;
-
-  font-size: 20px;
-
-  padding-left: 12px;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  color: var(--purple);
-
 }
 
 .navlink > a:hover, 

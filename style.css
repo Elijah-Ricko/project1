@@ -4,6 +4,7 @@ body {
   background-color: rgb(218, 204, 230);
 
   --purple: rgb(69, 0, 132);
+  --mid_purple: rgb(93, 25, 156);
   --gold: rgb(203, 182, 119);
   --dark_gold: rgb(173, 156, 101);
 }
@@ -12,34 +13,31 @@ body {
 .title {
   display: flex;
   justify-content: center;
+  text-decoration: none;
 
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
 
   font-size: 3em;
-  font-family: 'Courier New', monospace;
-  font-weight: bold;
+  font-family: Arial;
+  font-weight: 550;
   
 
   background-color: var(--purple);
   color: white;
 }
 
-/*gold bar*/
+/*nav bar*/
 .navlinks {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: stretch;
-
-  border-top: 3px solid black;
-  border-bottom: 3px solid black;
   
-  list-style-type: none;
   padding: 0;
   margin: 0;
   
-  background-color: var(--gold);
+  background-color: var(--purple);
 }
 
 /*Individual links*/
@@ -49,25 +47,15 @@ body {
   font-size: 30px;
   font-family: Georgia;
 
-  /* border-left: 2px solid black; */
-
   padding: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
 
-  color: var(--purple);
+  color: var(--gold);
 }
 
-.navlink > a:hover, 
-.dropdown-content > a:hover {
-  background-color: var(--dark_gold);
+.navlink > a:hover {
+  background-color: var(--mid_purple);
 }
 
-#dropdown:hover .dropdown-content {
-  display: block;
-}
-
-#dropdown:hover .dropbtn {
-  background-color: var(--dark_gold);
-}
 

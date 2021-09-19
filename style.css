@@ -1,12 +1,27 @@
 body {
   margin: 0;
-
-  background-color: rgb(218, 204, 230);
+  
+  height: 5000px;
 
   --purple: rgb(69, 0, 132);
   --mid_purple: rgb(93, 25, 156);
   --gold: rgb(203, 182, 119);
   --dark_gold: rgb(173, 156, 101);
+
+  --elect_brown: rgb(187, 101, 92);
+  --redwood: rgb(164, 90, 82);
+  --redwood2: rgb(153, 80, 70);
+  --camel: rgb(193, 154, 107);
+  --beige: rgb(204, 168, 126);
+
+  background-image: url(https://images.pexels.com/photos/164005/pexels-photo-164005.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+
+  background-repeat: repeat;
+  background-color: var(--beige);
+}
+
+#header {
+  border: 10px solid var(--camel);
 }
 
 /*Top Bar*/
@@ -16,14 +31,14 @@ body {
   text-decoration: none;
 
   padding-top: 1em;
-  padding-bottom: 1em;
+  padding-bottom: .5em;
 
-  font-size: 3em;
-  font-family: Arial;
-  font-weight: 550;
+  font-size: 5em;
+  font-family:'Lucida';
+  font-weight: 500;
   
 
-  background-color: var(--purple);
+  background-color: var(--redwood);
   color: white;
 }
 
@@ -39,7 +54,7 @@ body {
   padding: 0;
   margin: 0;
   
-  background-color: var(--purple);
+  background-color: var(--redwood);
 }
 
 /*Individual links*/
@@ -47,7 +62,7 @@ body {
   display: inline-block;
   text-decoration: none;
   font-size: 30px;
-  font-family: Georgia;
+  font-family: "FreeMono", monospace;
 
   padding: 20px;
   padding-top: 20px;
@@ -57,7 +72,7 @@ body {
 }
 
 .navlink > a:hover {
-  background-color: var(--mid_purple);
+  background-color: var(--redwood2);
 }
 
 

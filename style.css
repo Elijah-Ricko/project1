@@ -60,6 +60,14 @@ body {
   transition: 0.2s;
 }
 
+nav {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 /*nav bar*/
 .navlinks {
   display: flex;
@@ -89,10 +97,14 @@ body {
 
   color: var(--gold);
 
-  transition: 0.4s;
 }
 
-.navlink > a:hover {
+/*Individual Link box*/
+.navlink {
+  transition: 0.3s;
+}
+
+.navlink:hover {
   background-color: var(--redwood2);
 }
 
@@ -136,6 +148,52 @@ p {
 
   font-size: 25px;
   text-align: left;
+}
+
+.menu-icon {
+  display: none;
+}
+
+
+/*Under width threshold*/
+@media (max-width: 1100px) {
+
+  .navlinks {
+    display: none;
+
+    position: absolute;
+    margin-top: 450px;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    text-align: center;
+
+    background-color: var(--redwood);
+  }
+
+  .menu-icon {
+    display: flex;
+    font-size: 40px;
+
+    background-color: gray;
+
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 15px;
+  }
+
+  .menu-icon:hover {
+    background-color: rgb(145, 143, 143);
+  }
+
+  .menu-icon:focus ~ .navlinks {
+    display: flex;
+  }
+
+
+
+
 }
 
 

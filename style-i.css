@@ -1,0 +1,46 @@
+.imageLinks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.imageLinks > a {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: min-content;
+  height: min-content;
+
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+
+  margin: auto;
+  margin-top: 50px;
+}
+
+.imageLinks > a > img {
+  outline: 2px solid black;
+  outline-offset: -2px;
+}
+
+.imageLinks > a:hover > img {
+  outline: 8px solid var(--dark_gold);
+  outline-offset: -8px;
+}
+
+.imageLinks > a:hover {
+  font-weight: bold;
+}
+
+@media (max-width: 1100px) {
+  .imageLinks {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -152,6 +152,7 @@ p {
 
 .menu-icon {
   display: none;
+  color: black;
 }
 
 
@@ -183,12 +184,12 @@ p {
     margin-bottom: 15px;
   }
 
-  .menu-icon:hover {
-    background-color: rgb(145, 143, 143);
-  }
-
   .menu-icon:focus ~ .navlinks {
     display: flex;
+  }
+
+  .menu-icon:hover {
+    background-color: rgb(145, 143, 143);
   }
 
 

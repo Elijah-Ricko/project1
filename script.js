@@ -1,10 +1,14 @@
-function openMenu() {
-  var bar = document.getElementsByClassName('navBar')[0];
-  
-  if (bar.style.display === "flex") {
-    bar.style.display = "none";
-  } else {
-    bar.style.display = "flex";
-  }
+const navlinks = document.getElementsByTagName('nav')[0];
+const menu = document.getElementById('menu-icon');
+
+function toggleNavlinks() {
+
+  navlinks.classList.toggle('open');
+
+  console.log("hello");
+
 
 }
+
+menu.addEventListener('click', toggleNavlinks);
+

@@ -1,0 +1,42 @@
+.planks {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.planks > * {
+  position: relative;
+  background-color: var(--redwood);
+
+  border: 1px solid black;
+  margin: 1px;
+
+}
+
+.top {
+  width: 12em;
+  height: 1.5em;
+}
+
+.left, .right {
+  height: 12em;
+  width: 1.5em;
+}
+
+.left {
+  right: 3em;
+  animation: moveAway 1.5s infinite alternate-reverse linear;
+}
+
+.right {
+  animation: moveAway 1.5s infinite alternate linear;
+}
+
+@keyframes moveAway {
+  100% {
+    transform: translateX(3em);
+  }
+}

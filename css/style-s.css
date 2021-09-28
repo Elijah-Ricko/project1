@@ -1,0 +1,16 @@
+#title {
+  /* style="position: relative; margin: 0 auto; text-align: center" */
+
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+
+  color: var(--elect-brown);
+
+  animation: stain 3s infinite linear;
+
+}
+
+@keyframes stain {
+  to {color: var(--elect-brown2)}
+}

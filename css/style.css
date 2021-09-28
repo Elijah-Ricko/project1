@@ -12,9 +12,10 @@ body {
   --gold: rgb(203, 182, 119);
   --dark_gold: rgb(173, 156, 101);
 
-  --elect_brown: rgb(187, 101, 92);
+  --elect-brown: rgb(160, 87, 79);
+  --elect-brown2: rgb(128, 70, 63);
   --redwood: rgb(164, 90, 82);
-  --redwood2: rgb(153, 80, 70);
+  --redwood2: rgb(153, 82, 72);
   --camel: rgb(193, 154, 107);
   --beige: rgb(204, 168, 126);
 
@@ -64,11 +65,6 @@ body {
 }
 
 nav {
-  /* display: flex;
-
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center; */
   border: none;
 }
 
@@ -140,7 +136,7 @@ nav {
 h1 {
   display: block;
 
-  font-size: 45px;
+  font-size: 4em;
   text-align: center;
 }
 

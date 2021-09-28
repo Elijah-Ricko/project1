@@ -25,8 +25,8 @@
 }
 
 .imageLinks > a > img {
-  outline: 2px solid black;
-  outline-offset: -2px;
+  outline: 4px solid black;
+  outline-offset: -4px;
 }
 
 .imageLinks > a:hover > img {

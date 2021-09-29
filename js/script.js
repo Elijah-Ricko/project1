@@ -5,9 +5,6 @@ function toggleNavlinks() {
 
   navlinks.classList.toggle('open');
 
-  console.log("hello");
-
-
 }
 
 menu.addEventListener('click', toggleNavlinks);

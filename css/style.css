@@ -5,7 +5,7 @@ body {
   flex-direction: column;
 
   margin: 0;
-  height: 2000px;
+  height: 100vh;
 
   --purple: rgb(69, 0, 132);
   --mid_purple: rgb(93, 25, 156);
@@ -127,6 +127,7 @@ nav {
   margin-right: 5%;
 
   padding: 0 100px;
+  padding-bottom: 50px;
 
   border: 7px solid var(--redwood2);
 
@@ -182,7 +183,7 @@ li {
   nav.open {
     display: block;
     position: absolute;
-    top: 13%;
+    top: 17em;
   }
 
   #menu-icon:hover rect {

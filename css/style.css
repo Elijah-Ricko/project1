@@ -178,6 +178,7 @@ li {
 
   nav {
     display: none;
+    z-index: 1;
   }
 
   nav.open {

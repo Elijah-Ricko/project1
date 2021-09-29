@@ -40,3 +40,8 @@
     transform: translateX(3em);
   }
 }
+
+img {
+  width: 200px;
+  margin: auto;
+}

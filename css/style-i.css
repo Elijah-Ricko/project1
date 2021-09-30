@@ -44,3 +44,20 @@
     flex-direction: column;
   }
 }
+
+
+#form {
+  font-size: 1.5em;
+
+  margin: 8em auto;
+
+  align-items: center;
+}
+
+select {
+  background-color: var(--redwood2);
+  color: white;
+  
+  font-size: 0.8em;
+  width: min-content;
+}

@@ -55,9 +55,19 @@
 }
 
 select {
-  background-color: var(--redwood2);
-  color: white;
+  background-color: var(--camel);
+  color: rgb(61, 58, 58);
+  border: 1px solid black;
   
   font-size: 0.8em;
-  width: min-content;
+  width: 10em;
+}
+
+#submit {
+  height: 2.2em;
+  width: 5em;
+
+  font-size: 0.6em;
+
+  background-color: lightgray;
 }

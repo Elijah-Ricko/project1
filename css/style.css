@@ -13,7 +13,7 @@ body {
   --dark_gold: rgb(173, 156, 101);
 
   --elect-brown: rgb(160, 87, 79);
-  --elect-brown2: rgb(128, 70, 63);
+  --elect-brown2: rgb(107, 58, 52);
   --redwood: rgb(164, 90, 82);
   --redwood2: rgb(153, 82, 72);
   --camel: rgb(193, 154, 107);
@@ -41,11 +41,10 @@ body {
 
   flex-direction: row;
   justify-content: center;
-  /* align-items: center; */
 
   text-align: center;
 
-  height: 200px;
+  height: 220px;
 }
 
 /*Title text*/
